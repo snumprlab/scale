@@ -15,8 +15,8 @@ Official implementation of **"SCALE: Self-uncertainty Conditioned Adaptive Looki
 ## 🔊 Updates
 
 - [x] Release the paper on <a href="https://arxiv.org/abs/2602.04208">arXiv</a> <br>
-- [x] Open the <a href="[https://dcahn12.github.io/projects/rtsbench/](https://dcahn12.github.io/projects/scale/)">project page</a> for SCALE! <br>
-- [ ] Release the evaluation code for SCALE <br>
+- [x] Open the <a href="[https://dcahn12.github.io/projects/rtsbench/](https://dcahn12.github.io/projects/scale/">project page</a> for SCALE! <br>
+- [ ] Release the code for SCALE <br>
 
 
 #### Code coming soon! Stay tuned.
