@@ -24,10 +24,10 @@ Official implementation of **"SCALE: Self-uncertainty Conditioned Adaptive Looki
 ## Citation
 
 ```bibtex
-@article{choi2026scale,
+@inproceedings{choi2026scale,
   title={SCALE: Self-uncertainty Conditioned Adaptive Looking and Execution for Vision-Language-Action Models}, 
   author={Hyeonbeom Choi and Daechul Ahn and Youhan Lee and Taewook Kang and Seongwon Cho and Jonghyun Choi},
-  journal={ICML},
+  booktitle={ICML},
   year={2026}
 }
 ```
