@@ -48,9 +48,7 @@ pip install -e .
 # 4) Install Flash-Attention 2
 pip install packaging ninja
 pip install "flash-attn==2.5.5" --no-build-isolation
-```
 
-```bash
 # 5) Clone & install LIBERO
 git clone https://github.com/Lifelong-Robot-Learning/LIBERO.git
 pip install -e LIBERO --config-settings editable_mode=compat
@@ -59,20 +57,6 @@ pip install -e LIBERO --config-settings editable_mode=compat
 pip install -r experiments/robot/libero/libero_requirements.txt
 pip install numpy==1.26.4 mujoco==3.3.2
 ```
-
-## 🤖 Checkpoints
-
-We use the official OpenVLA checkpoints fine-tuned on each LIBERO suite:
-
-| Task suite | Checkpoint (HF Hub) |
-|---|---|
-| `libero_spatial` | `openvla/openvla-7b-finetuned-libero-spatial` |
-| `libero_object`  | `openvla/openvla-7b-finetuned-libero-object`  |
-| `libero_goal`    | `openvla/openvla-7b-finetuned-libero-goal`    |
-| `libero_10`      | `openvla/openvla-7b-finetuned-libero-10`      |
-
-The checkpoint is **auto-selected from `--task_suite`** (using the table above), so you normally don't pass it.
-To override, pass `--pretrained_checkpoint` with a Hub ID (auto-downloaded) or a local checkpoint directory.
 
 ## 🚀 Evaluation
 
